@@ -8,18 +8,17 @@ LangGraph Advanced is a project that explores the implementation of **advanced A
 - **Advanced Memory Management** – Implementing short-term memory (checkpointers) and long-term memory (Store object).
 - **Multi-Agent Interactions** – Developing architectures with multiple agents collaborating in complex scenarios.
 - **Integration with FastAPI and Docker** – Creating production-ready AI systems with scalable APIs and automated deployment.
+- **Full-Stack Application** – Includes a **FastAPI backend** and an **Angular frontend**, managed with **Docker Compose** to orchestrate backend, frontend, and a **PostgreSQL database** for storing graph state checkpoints. More details can be found in the `fullstack_app` folder inside `appunti.md`.
 
 ## Project Goals
 - **Explore the advanced capabilities of LangGraph** to build intelligent and modular AI agents.
 - **Experiment with orchestration models** to optimize decision-making and state management.
-- **Test and validate integration with production stacks**, ensuring performance and reliability.
 
 ## Technologies Used
 - **Python** for agent development
 - **LangGraph** for flow and state management
 - **FastAPI** for interactive API exposure
 - **Docker** for scalable deployment
-- **Unit testing and advanced debugging** for system stability
 
 ## Jupyter Notebooks
 This repository includes various **Jupyter notebooks** demonstrating key concepts and features of LangGraph:
@@ -37,19 +36,4 @@ This repository includes various **Jupyter notebooks** demonstrating key concept
 - **Agent_Patterns.ipynb** – Presents reusable agent design patterns.
 - **LongTermMemory.ipynb** – Implements long-term memory in LangGraph-based agents.
 
-## Getting Started
-To run the project locally:
-```sh
-# Clone the repository
-git clone https://github.com/<USERNAME>/<REPO>.git
-cd <REPO>
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the application
-python main.py
-```
-
 LangGraph Advanced is the result of an extensive experimentation and optimization process in AI agent development. This repository documents the work done and the techniques used to create intelligent and efficient systems.
-
