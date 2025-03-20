@@ -8,11 +8,11 @@ RUN apt-get update && apt-get install -y \
     rm -rf /var/lib/apt/lists/*
 
 # Kopiere die Abhängigkeiten und installiere sie
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+COPY requirements_mongo.txt .
+RUN pip install --no-cache-dir -r requirements_mongo.txt
 
 # Kopiere den restlichen Code
 COPY . .
 
 # Starte den Server
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "app_mongo:app", "--host", "0.0.0.0", "--port", "8000"]

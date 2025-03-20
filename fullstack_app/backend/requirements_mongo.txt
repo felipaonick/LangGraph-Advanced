@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+langgraph
+langchain
+langgraph-checkpoint-postgres
+langchain-openai
+python-dotenv
+motor 
+pymongo
+langgraph-checkpoint-mongodb
